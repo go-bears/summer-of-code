@@ -1,9 +1,8 @@
 ---
- title:
+ title: Aloha, Rails Girls Summer of Code and GitHub!
  layout: post
  created_at: Fri Oct 12 2016
- permalink: blog/2016-09-30-Hackbrighter-End-of-Summer
- current: blog
+ permalink: blog/2016-09-30-Hackbrighters-Aloha
  author: Melissa Fabros and Patricia Arbona
  twitter: HeartRGSoC_sf
  categories:
@@ -12,23 +11,19 @@
  # Team Hackbrighter's Amazing Summer of Code Experience
 
  ##### *What accomplishments are you proud of?*
- ![Patricia Setting Up her Development Environment at Github](/img/blog/2016/hackbrighters_patricia_setup.jpg)<i>Patricia hacking away on a kata</i><br><font color="grey"><small><i>(Image Credit: <a href="https://www.linkedin.com/in/melissa-fabros-5a1b35b">Melissa Fabros</a>)</i></small></font>
+
+![Patricia Setting Up her Development Environment at Github](/img/blog/2016/hackbrighters_patricia_setup.jpg)<font color="grey"><small><i>Patricia hacking away (Image Credit: <a href="https://www.linkedin.com/in/melissa-fabros-5a1b35b">Melissa Fabros</a>)</i></small></font>
 
  Overall, we're very proud of the fact that our team was able to set up and configure integration testing. According to Martin Fowler's [pyramid of testing](http://martinfowler.com/bliki/TestPyramid.html), integration testing is the hardest and most expensive tests to write. We tried tackling this because we wanted the challenge of learning the codebase at all levels of the stack. Dealing with deprecated dependencies and un-updated modules to work with PyTest and to configure Travis CI was no small feat! Our team jumped up and high-fived each other the day our build successfully passed Travis CI. We soon discovered that <font color="green">green</font> is a beautiful color. We realize how valuable testing is within a codebase. Good testing helps ensure robust code and provides a form of documentation to guide future developers.
+![Travis Build Passing](/img/blog/2016/hackbrighters_build_passing.png)<small><i><font color="grey">Green is truly beautiful in the world of testing. (Image: Team Hackbrighters)</i></small></font>
 
- ![Travis Build Passing](/img/blog/2016/hackbrighters_build_passing.png)<i><font color="green">Green </font>is truly beautiful in the world of testing.</i>
-<small><i><br><font color="grey">(Image: Team Hackbrighters)</i></small></font>
+ Moreover, we ramped up to a new code base quickly. To get a handle on what the code was doing, we had to dive deep into modern Javascript. This meant learning new ES6 syntax and React in addition to learning some new Python concepts.
 
-
-
- Moreover, we ramped up to a new code base quickly. To get a handle on what the code was doing, we had to dive deep into modern Javascript. This meant learning new ES6 syntax and React in addition to learning some new Python concepts. 
- ![Whiteboarding Lektor with Armin](/img/blog/2016/hackbrighters_Lektor_whiteboarding.jpg)
- <i>Whiteboarding Lektor's React components and widgets</i><br><font color="grey">
- <small><i>(Image Credit: <a href="https://www.twitter.com/patricia_arbona">Patricia Arbona</a>)</i></small></font>
+![Whiteboarding Lektor with Armin](/img/blog/2016/hackbrighters_Lektor_whiteboarding.jpg)<font color="grey"><small><i>Whiteboarding Lektor's React components and widgets (Image Credit: <a href="https://www.twitter.com/patricia_arbona">Patricia Arbona</a>)</i></small></font>
 
  We're really proud of how scrappy we were about finding resources and people to help us learn. We took advantage of all opportunities available to us and seriously leveraged our network. This included reaching out to our coaches, past managers, the Lektor community, and welcoming Slack communities such as [WeAllJs](http://wealljs.org/).
 
- ![Karaoke with Armin](/img/blog/2016/hackbrighters_karaoke.jpg)<font color="grey"><small><i>(Image Credit: <a href="https://www.linkedin.com/in/doriakeung">Doria Keung</a>)</i></small></font>
+![Karaoke with Armin](/img/blog/2016/hackbrighters_karaoke.jpg)<font color="grey"><small><i>Karaoke with Armin (Image Credit: <a href="https://www.linkedin.com/in/doriakeung">Doria Keung</a>)</i></small></font>
 
  ##### *What did you end up learning that you didn't expect to?*
 
@@ -36,14 +31,19 @@
 
  We thought we had a solid understanding of git, but we soon realized how challenging git can be! Our team received first-hand experience rebasing, squashing, amending, refloging, reverting, stashing, and much more. Our team definitely feels more confident with git incantations, which will serve us well going into our next software development jobs.
 
- Lastly, we learned about public speaking when we organized a panel to talk about participating in Open Source at Hackbright with [Katrina Owen](http://www.kytrinyx.com/) and [Carol Smith](http://www.fossygirl.com/). Katrina Owen, Developer Advocate at Github, is co-author of _ 99 Bottles of OOP _, and author of Exercism.io. Carol Smith is currently the Education Partnership Manager at Github, and previously was the Google Summer of Code Program Manager. We were flattered to speak alongside Katrina and Carol! Neither of us have had an opportunity like this before. It was a lovely opportunity to share our knowledge and experience with students.
+ Lastly, we learned about public speaking when we organized a panel to talk about participating in Open Source at Hackbright with [Katrina Owen](http://www.kytrinyx.com/) and [Carol Smith](http://www.fossygirl.com/). Katrina Owen, Developer Advocate at Github, is co-author of [_99 Bottles of OOP_](http://www.sandimetz.com/99bottles/), and author of [Exercism.io](http://exercism.io/). Carol Smith is currently the Education Partnership Manager at Github, and previously was the Google Summer of Code Program Manager. 
+
+![Chandrika Akar, Patricia, Carol Smith, Wendy Saccuzzo, Melissa, Ximena Cervantes](/img/blog/2016/hackbrighters-meets-carol.jpg)<font color="grey"><small><i>Chandrika Akar, Patricia, Carol Smith, Wendy Saccuzzo, Melissa, Ximena Cervantes (Image Credit: Matt Amituanai)</i></small></font>
 
 
- ##### *How do you think you'll apply your summer of code and Lektor experiences to future projects?*
+ We were flattered to speak alongside Katrina and Carol! Neither of us have had an opportunity like this before. It was a lovely opportunity to share our knowledge and experience with students.
 
-We really felt welcomed by the Rails Girls Community! We'd definitely keep an eye out on how to support the organization and its alumna.  ![Patricia, Mona Lisa Octocat, Laura Gaetano, Melissa](/img/blog/2016/hackbrighters_mona_lisa.jpg)<font color="grey"><small><i>(Image Credit: Michael Schärfer)</i></small></font>
 
- It took us at least six weeks to feel comfortable in the Lektor codebase with a lot of help. We took on writing and setting up the most difficult tests to establish a base for other developers so that they can move the codebase forward safely. For Lektor, we introduced end-to-end integration and front-end testing.  We now have a real appreciation about how hard tests are to set up and about the need to build features with the idea that features should be testable.
+ *##### How do you think you'll apply your summer of code and Lektor experiences to future projects?*
+
+We really felt welcomed by the Rails Girls Community! We'd definitely keep an eye out on how to support the organization and its alumna.  ![Patricia, Mona Lisa Octocat, Laura Gaetano, Melissa](/img/blog/2016/hackbrighters_mona_lisa.jpg)<font color="grey"><small><i>Patricia, Mona Lisa Octocat, Laura Gaetano, Melissa (Image Credit: <a href="https://twitter.com/notyce">Michael Schärfer</a>)</i></small></font>
+
+ It took us at least six weeks to feel comfortable in the Lektor codebase with a lot of help.We took on writing and setting up the most difficult tests to establish a base for other developers so that they can move the codebase forward safely. For Lektor, we introduced end-to-end integration and front-end testing.  We now have a real appreciation about how hard tests are to set up and about the need to build features with the idea that features should be testable.
 
  We had a lot of fun building out our new feature with its associated test. In other future projects, we'd probably try to build our knowledge of a codebase more incrementally by picking smaller issues and features. We also learned how to ask informed questions of other developers when asking for help.  
 
@@ -52,12 +52,17 @@ We really felt welcomed by the Rails Girls Community! We'd definitely keep an ey
  In addition to keeping an eye on Lektor, we felt confident enough to start exploring other open source projects. 
  Melissa is exploring learning Ruby and Rails, so she could contribute to [Github Classroom](https://classroom.github.com/) and [Project Jupyter](http://jupyter.org/).
 
- Patricia looks forward to contributing to [Double Union's](www.doubleunion.org) [arooo (A Room of One's Own)](https://www.github.com/DoubleUnion/arooo) and her new favorite text editor [Atom](https://github.com/atom).
+ Patricia looks forward to contributing to [Double Union's](www.doubleunion.org) open source project, [arooo (A Room of One's Own)](https://www.github.com/DoubleUnion/arooo), and her new favorite text editor [Atom](https://github.com/atom).
 
-![Adorable Chihuahua and Melissa](/img/blog/2016/hackbrighters_chihuahua_melissa.jpg)<font color="grey"><small><i>(Image Credit:<a href="https://www.twitter.com/patricia_arbona">Patricia Arbona</a>)</i></small></font>
+![Adorable Chihuahua and Melissa](/img/blog/2016/hackbrighters_chihuahua_melissa.jpg)<font color="grey"><small><i>Adorable Chihuahua and Melissa (Image Credit:<a href="https://www.twitter.com/patricia_arbona">Patricia Arbona</a>)</i></small></font>
 
 
  ##### *Roll the Credits!*
+
+ We want to say Aloha, which means "goodbye" and "hello", because although we have to say goodbye for now, we hope that Rails Girls Summer of Code is just the beginning of our journey as developers. 
+
+![Hackbrighters Closing Celebration with Gavin, Melissa, Patricia, Seema](/img/blog/2016/hackbrighters-aloha.jpg)<font color="grey"><small><i> Hackbrighters Closing Celebration with Gavin, Melissa, Patricia, Seema (Image Credit:Leo Miranda)</i></small></font>
+ 
  Overall we're grateful for the opportunity to grow as software developers under the mentorship of the Rails Girls organization and to receive the goodwill of Github's community and of the SF developer community at large. So many people shared their time, wisdom, and kindness. We're thankful to have met all of them. 
 
  Here are our shoutouts in no particular order:
@@ -111,8 +116,14 @@ We really felt welcomed by the Rails Girls Community! We'd definitely keep an ey
  *   [Bianca Escalante](https://twitter.com/biancacreating)
  *   [Dustin Kneviel](https://twitter.com/eveldk)
  *   [Daniel Hwang](https://github.com/gnawhleinad)
+ *   [Paul Nakata](http://pmn.org/)
+ *   [Jensen Fleming](Jensen Fleming)
+ *   [Corey Hobbs](http://corey.chocolatejs.com/)
+ *   [Alyson La](https://twitter.com/alysonlaaa)
  *   [Papi Menon](https://twitter.com/papimenon)
  *   [Matt Yoho](http://mattyoho.com/)
+ *   [Jennie Ohyoung](https://www.linkedin.com/in/jennieohyoung)
+ *   [Kiera Manion-Fischer](https://twitter.com/KManion)
  *   [Tim Jarrat](https://twitter.com/LeftSaidTim)
  *   [Josh Levin](https://twitter.com/thejosh)
  *   [Aaron Vondehar](https://twitter.com/avh4)
@@ -120,5 +131,5 @@ We really felt welcomed by the Rails Girls Community! We'd definitely keep an ey
 
  *   Also sending thanks to: Alex, Matt, Leo, Raul, Mint, Monique, AJ, Kevin and Gabriel
 
- This list is by no way comprehensive. We might have missed your name here but we did appreciate your spirit and your kindess.
+ This list is by no ways comprehensive. We might have missed your name here, but we did appreciate your spirit and your kindess.
 
